@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="c.css">
+</head>
+
+<body>
+
+<div id="center">
+<table class="device" >
+    <tr>
+        <td id="middle">
+            <form name="calculator">
+                <table>
+                    <tr>
+                        <td colspan="5"><input type="text" name="display" class="display" readonly='readonly'></td>
+                    </tr>
+                    <tr>
+                        <td colspan="5"><input type="text" class="invisbutton" style="height:15px;" readonly='readonly'></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="hidden" class="invisbutton" readonly='readonly'></td>
+                        <td><input type="text" name="hidden2" class="invisbutton" readonly='readonly'></td>
+                        <td><input type="button" id="off" class="redbutton" value="off" ></td>
+                        <td><input type="button" id="ce" class="yellowbutton" value="ce" ></td>
+                        <td><input type="button" id="onc" class="yellowbutton" value="on/c" ></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" name="number7" class="button" value="7" ></td>
+                        <td><input type="button" name="number8" class="button" value="8" ></td>
+                        <td><input type="button" name="number9" class="button" value="9" ></td>
+                        <td rowspan="2"><input type="button" id="func-" class="button" value="-" ></td>
+                        <td><input type="button" name="plusmin" class="button" value="+/-" ></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" name="number4" class="button" value="4" ></td>
+                        <td><input type="button" name="number5" class="button" value="5" ></td>
+                        <td><input type="button" name="number6" class="button" value="6" ></td>
+                        <td><input type="button" id="func/" class="button" value="/" ></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" name="number1" class="button" value="1" ></td>
+                        <td><input type="button" name="number2" class="button" value="2"></td>
+                        <td><input type="button" name="number3" class="button" value="3" ></td>
+                        <td rowspan="2"><input type="button" id="func+" class="button" value="+"></td>
+                        <td><input type="button" id="func*" class="button" value="x" ></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" name="number0" class="button" value="0" ></td>
+                        <td><input type="button" name="number00" class="button" value="00" ></td>
+                        <td><input type="button" name="dot" class="button" value="." ></td>
+                        <td><input type="button" id="equals" class="button" value="=" ></td>
+                    </tr>
+                </table>
+            </form>
+        </td>
+    </tr>
+</table>
+</div>
+<script src="c.js"></script>
+</body>
+</html>
